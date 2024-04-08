@@ -97,7 +97,7 @@ window.addEventListener('load', function () {
             const a = document.createElement('a');
             a.href = url;
             a.download = 'crypto_prices.xlsx';
-            // a.click();
+            a.click();
 
             window.URL.revokeObjectURL(url);
 
